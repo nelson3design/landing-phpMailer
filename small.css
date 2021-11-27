@@ -1,0 +1,75 @@
+input {
+	width: 400px;
+}
+
+form {
+	width: 100%;
+}
+
+.nome {
+	width: 400px;
+	height: 25px;
+	margin-bottom: 15px;
+	border: none;
+	padding-left: 5px;
+}
+
+.email {
+	width: 400px;
+	height: 25px;
+	margin-bottom: 15px;
+	border: none;
+	padding-left: 5px;
+}
+
+.message {
+	width: 400px;
+	height: 150px;
+	border: none;
+	padding-left: 5px;
+}
+
+.submit {
+	width: 405px;
+	height: 25px;
+	border: none;
+	color: white;
+	background-color: rgb(104, 104, 104);
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.submit:hover {
+	background-color: cornflowerblue;
+}
+.title-contact {
+	margin-top: 40px;
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: -50px;
+}
+
+@media (max-width: 992px) {
+	.nome,
+	.email,
+	.message {
+		width: 350px;
+	}
+
+	.submit {
+		width: 355px;
+	}
+}
+
+@media (max-width: 500px) and (min-width: 200px) {
+	.nome,
+	.email,
+	.message {
+		width: 300px;
+	}
+
+	.submit {
+		width: 305px;
+	}
+}
